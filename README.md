@@ -53,6 +53,8 @@ pip install -r requirements.txt
 
 # 4. Run the application
 python3 archive_discovery.py
+```
+
 
 ```bash
 # For macOS/Linux:
@@ -70,5 +72,5 @@ pip install -r requirements.txt
 
 # 4. Run the application
 python3 archive_discovery.py
-
+```
 
