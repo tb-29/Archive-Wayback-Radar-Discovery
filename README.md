@@ -41,14 +41,16 @@
 #### 2. Setup (Recommended: Use Virtual Environment)
 
 ```bash
-# On Windows
-python -m venv venv
+# On Windows:
+python3 -m venv venv
 venv\Scripts\activate
+pip install -r requirements.txt
+python3 archive_discovery.py
 
-# On macOS/Linux
+# On macOS/Linux:
 python3 -m venv venv
 source venv/bin/activate
-
-# Then install dependencies
 pip install -r requirements.txt
-python archive_discovery.py
+python3 archive_discovery.py
+
+
