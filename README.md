@@ -29,14 +29,20 @@
 
 ---
 
-## Installation
+## 🛠️ Installation
 
-### Desktop Application
+### 💻 Desktop Application
 
-1. **Requirements**
-   - Python 3.8+
-   - Dependencies listed in `requirements.txt`
+#### 1. Requirements
 
-2. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
+- Python 3.8 or higher
+- All dependencies listed in `requirements.txt`
+
+#### 2. Setup (Recommended: Use Virtual Environment)
+
+##### On Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
