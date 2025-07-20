@@ -35,14 +35,20 @@
 
 #### 1. Requirements
 
-- Python 3.8 or higher
+- Python 3.8 or higher  
 - All dependencies listed in `requirements.txt`
 
 #### 2. Setup (Recommended: Use Virtual Environment)
 
-##### On Windows
-
 ```bash
+# On Windows
 python -m venv venv
 venv\Scripts\activate
+
+# On macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+
+# Then install dependencies
 pip install -r requirements.txt
+python archive_discovery.py
